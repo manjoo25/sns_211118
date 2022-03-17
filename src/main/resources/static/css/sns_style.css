@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* 회원가입 창 */
+.signUp {
+    width: 400px;
+    border: 1px 0 #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 4px rgb(224, 224, 224);
+}
+
+/* 로그인 창 */
+.signIn {
+    width: 390px;
+    border: 1px 0 #ccc;
+    border-radius: 15px;
+    /* box-shadow: h-offset v-offset blur spread color type; */
+    box-shadow: 0 0 15px 4px rgb(224, 224, 224);
+}
+
+.signIn > .line {
+    width: 350px;
+    /* border: 0;
+    height: 1px;
+    background: rgb(219, 219, 219); */
+    border: 0 1px #ccc;
+}
+
+#signUpBtn {
+    align-items: end;
+}
